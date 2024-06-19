@@ -12,7 +12,7 @@ public class SingleConsumer {
 
     public static void main(String[] argv) throws Exception {
         ConnectionFactory factory = new ConnectionFactory();
-        factory.setHost("localhost");
+        factory.setHost("http://124.223.16.211/");
         Connection connection = factory.newConnection();
         Channel channel = connection.createChannel();
 
