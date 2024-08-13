@@ -7,12 +7,9 @@ import com.yupi.yucongming.dev.common.BaseResponse;
 import com.yupi.yucongming.dev.model.DevChatRequest;
 import com.yupi.yucongming.dev.model.DevChatResponse;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.tomcat.util.buf.ByteChunk;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
-
-import static cn.hutool.core.lang.Console.log;
 
 /**
  * @author cat
